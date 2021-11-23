@@ -1,7 +1,7 @@
 
 import { createElement } from 'lwc';
-import MyApp from 'my/app';
+import shoppingCart from 'c/shoppingCart';
 
-const app = createElement('my-app', { is: MyApp });
+const shoppingCart = createElement('shoppingCart', { is: shoppingCart });
 // eslint-disable-next-line @lwc/lwc/no-document-queryasdfa
 document.querySelector('#main').appendChild(app);
